@@ -1,0 +1,37 @@
+usage: run.py [-h] [--output_dir [OUTPUT_DIR]] [-i [INPUT_FILE]]
+              [-l [LANGUAGE]] -c [COUNT] [-rs] [-let] [-num] [-sym]
+              [-w [LENGTH]] [-r] [-f [FORMAT]] [-t [THREAD_COUNT]]
+              [-e [EXTENSION]] [-k [SKEW_ANGLE]] [-rk] [-wk] [-bl [BLUR]]
+              [-rbl] [-b [BACKGROUND]] [-hw] [-na NAME_FORMAT]
+              [-om OUTPUT_MASK] [-d [DISTORSION]]
+              [-do [DISTORSION_ORIENTATION]] [-wd [WIDTH]] [-al [ALIGNMENT]]
+              [-or [ORIENTATION]] [-tc [TEXT_COLOR]] [-sw [SPACE_WIDTH]]
+              [-cs [CHARACTER_SPACING]] [-m [MARGINS]] [-fi] [-ft [FONT]]
+              [-fd [FONT_DIR]] [-id [IMAGE_DIR]] [-ca [CASE]] [-dt [DICT]]
+              [-ws] [-stw [STROKE_WIDTH]] [-stf [STROKE_FILL]]
+              [-im [IMAGE_MODE]]
+run.py: error: the following arguments are required: -c/--count
+
+-c=10
+-dt=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/dicts/hy.txt
+-fd=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/fonts/hy
+-w=10
+-do=1
+
+-c=10
+-dt=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/dicts/hy.txt
+-fd=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/fonts/hy
+-do=1
+-w=10
+-d=1
+
+-dt=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/dicts/hy.txt -ft=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/fonts/hy/FFF_Tusj.ttf -do=1 -w=5 -d=0 -do=0 -b=1 -om=1 -f=300 -t=6 -or=0 -stw=5 -na=2 -c=2
+
+
+-dt=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/dicts/hy.txt -fd=/home/karen/master/master-thesis-ocr/fonts/hy/
+-do=1 -w=5 -d=0 -do=0 -b=1 -f=48 -t=6 -or=0 -na=2 -c=100
+
+-dt=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/dicts/hy.txt -ft=/home/karen/master/master-thesis-ocr/fonts/hy/NotoSansArmenian-Medium.ttf
+-do=1 -w=5 -d=0 -do=0 -b=1 -f=48 -t=6 -or=0 -na=2 -c=100
+
+python3.6 ./run.py -dt=/home/karen/master/data-generator/TextRecognitionDataGenerator/trdg/dicts/hy.txt  -do=1 -w=5 -d=0 -do=0 -b=1 -f=48 -t=6 -or=0 -na=2 -c=1
