@@ -1,0 +1,9 @@
+README.md
+setup.py
+ocrodeg/__init__.py
+ocrodeg/degrade.py
+ocrodeg.egg-info/PKG-INFO
+ocrodeg.egg-info/SOURCES.txt
+ocrodeg.egg-info/dependency_links.txt
+ocrodeg.egg-info/requires.txt
+ocrodeg.egg-info/top_level.txt
