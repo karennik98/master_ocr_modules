@@ -1,9 +1,9 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
-cff-version: 1.2.0
-title: Synthetic Data Generator
-message: Please cite this dataset using these metadata.
-type: software
-authors: [Karen Nikoghosyan]
-
+@misc{Karen2022,
+  author = {Karen Nikoghosyan},
+  title = {Synthetic Data Generator},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/karennik98/master_ocr_modules}},
+  commit = {2f179a5673112341ef4c3d5959585147ef220759}
+}
