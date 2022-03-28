@@ -1,9 +1,9 @@
-@software{OCR_modules,
-  author = {Karen Nikoghosyan},
-  title = {OCR Modules},
-  year = {2022},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/karennik98/master_ocr_modules}},
-  commit = {2f179a5673112341ef4c3d5959585147ef220759}
-}
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+authors:
+- family-names: "Nikoghosyan"
+  given-names: "karen"
+title: "OCR_modules"
+version: 1.0.0
+date-released: 2022-02-01
+url: "https://github.com/karennik98/master_ocr_modules"
