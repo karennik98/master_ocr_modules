@@ -1,6 +1,6 @@
-@misc{Karen2022,
+@software{OCR_modules,
   author = {Karen Nikoghosyan},
-  title = {Synthetic Data Generator},
+  title = {OCR Modules},
   year = {2022},
   publisher = {GitHub},
   journal = {GitHub repository},
